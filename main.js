@@ -1,7 +1,7 @@
 const items = document.querySelectorAll(".countdown-item > h4")
 const countdownElement = document.querySelector(".countdown")
 // назначаем точку отсчета
-let countdownDate = new Date(2023, 4, 1, 10, 0, 0)
+let countdownDate = new Date(2023, 11, 28, 10, 0, 0)
 
 function getCountdownTime() {
     // сначала получаем текущее время
