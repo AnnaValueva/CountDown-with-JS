@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f1f5f8;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 36px;
+}
+
+.container p {
+    font-size: 18px;
+    margin: 16px 0;
+}
+
+/* относительно блока берет 100% */
+.image{
+    height: 100%;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.countdown{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    min-width: 320px;
+}
+
+.countdown-item{
+    background-color: #49a69e;
+    padding: 6px;
+    min-width: 65px;
+    border-radius: 15px;
+}
+
+.expired{
+    color: #222;
+    margin: 0 auto;
+    font-size: 36px;
+}
